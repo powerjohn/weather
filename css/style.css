@@ -1,0 +1,10 @@
+body{
+  background: url(../img/background.jpg) fixed center, center, no-repeat;
+  background-size: cover;
+}
+
+.weather-box{width: 75%;
+background-color: rgba(255,255,255,0.25);
+border-radius: 10px 10px;
+margin: 5% auto;}
+
