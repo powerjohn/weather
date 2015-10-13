@@ -20,7 +20,8 @@
    });
 
    function getWeather(lat, lon, units) {
-     $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&units=' + units, function(results) {
+     $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&units=' + units+ 
+      '&APPID=c2bed6cffcbbaab555a395931d7afbd7', function(results) {
        $(document).trigger('weather/results', results);
      });
 
